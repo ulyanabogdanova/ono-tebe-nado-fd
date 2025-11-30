@@ -1,0 +1,22 @@
+name: Tests
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      
+    - name: Validate structure
+      run: |
+        echo "✅ Testing project structure"
+        [ -f index.html ] && echo "✓ index.html exists" || exit 1
+        [ -d styles ] && echo "✓ styles directory exists" || exit 1
+        echo "🎉 All checks passed!"
