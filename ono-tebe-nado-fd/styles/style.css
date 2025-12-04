@@ -356,8 +356,8 @@ body {
   flex-direction: column;
   font-family: "Raleway", sans-serif;
   position: relative;
-  top: -7px;       /* поднимаем вверх */
-  right: -50px;     /* смещаем вправо */
+  top: -7px;     
+  right: -50px;    
   text-align: left;
 }
 
