@@ -133,9 +133,9 @@ body {
 .aligned-text_right {
   display: block;
   text-align: right;
-  margin-right: 20px; /* оставляем твой отступ справа */
+  margin-right: 20px; 
   position: relative;
-  top: -10px; /* заменяет margin-top: -5px */
+  top: -10px; 
 }
 
 .cover__description {
