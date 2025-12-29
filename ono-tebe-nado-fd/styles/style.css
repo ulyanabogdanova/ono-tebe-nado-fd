@@ -17,7 +17,7 @@ body {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 0 89px;
+  padding: 92px 0 92px;
   font-family: "Raleway", sans-serif;
 }
 
@@ -27,6 +27,7 @@ body {
   list-style: circle;
   margin: 0;
   margin-left: 52px;
+  margin-bottom: 10px;
   padding: 0;
   align-items: center;
   font-size: 18px;
@@ -90,7 +91,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-  height: 757px;
+  min-height: 757px;
 }
 
 .cover__title {
@@ -109,7 +110,6 @@ body {
 
 .aligned-text {
   display: flex;
-  width: 100%;
 }
 
 .aligned-text_left {
@@ -157,7 +157,7 @@ body {
   font-size: 22px;
   transition: 0.3s;
   margin-left: auto;
-  margin-top: -10px;
+  margin-top: -15px;
   align-self: flex-start;
 }
 
